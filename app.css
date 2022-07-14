@@ -1,0 +1,1313 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.nav ul{
+    display: flex !important;
+}
+.nav ul li{
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: #E8AA42;
+}
+.btn_butt{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #2563FF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logo{
+    color: #E8AA42;
+    font-size: 40px;
+    cursor: default;
+}
+span{
+    color: #1F4690;
+}
+
+.page-1{
+    background: url(images/Layer\ 5.png)no-repeat bottom;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+}
+.best-app{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 50px;
+    background: lightgrey;
+    margin-bottom: 10px;
+}
+
+.icon-1{
+    color: #fff;
+    background: orange;
+    border-radius: 50px;
+    padding: 10px;
+    width: 40px;
+}
+
+.modern h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.modern p{
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-1 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: blue;
+    color: #fff;
+}
+
+.btn-1 a{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.trusted{
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    font-size: 25px;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.group-90{
+    transition: 0.8s;
+}
+.group-90:hover{
+    transform:scale(1.1);
+}
+
+.features{
+    display: flex;
+    height: 1000px;
+    align-items: center;
+    line-height: 28px;
+}
+.features h1{
+    color: #231955;
+    align-items: center;
+}
+.speed{
+    display: flex;
+    padding-top: 60px;
+    gap: 30px;
+    transition: 0.8s;
+}
+
+.speed:hover{
+    transform:scale(1.1);
+}
+
+.speed h1{
+    color: #F55767;
+}
+
+.Vector h1{
+    color: #2563FF;
+}
+
+.Fast h1{
+    color: #40975F;
+}
+
+.smart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.smart h1{
+    font-size: 40px;
+}
+
+.smart p{
+    font-size: 20px;
+}
+
+.smart hr{
+    height: 100px;
+}
+
+.network{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    line-height: 22px;
+}
+
+.bill h2{
+    color: #F55767;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.efect h2{
+    color: #2563FF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.badge h2{
+    color: #40975F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.github{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+}
+
+.Designed h1{
+    color: #231955;
+    font-size: 30px;
+}
+.Designed p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.Designed button{
+    background: blue;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.App{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 300px;   
+    line-height: 25px;
+}
+
+.UX-Planning{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 200px;   
+}
+
+.devlop{
+    padding-bottom: 15px;
+}
+
+.planning{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 1000px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.planning button{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Cloud-Storage{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 30px;
+    gap: 30px;
+}
+
+.img-1{
+    width: 600px;
+    float: right;
+}
+
+.btn-1 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: blue;
+    color: #fff;
+    border: none;
+
+}
+.btn-1 a{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 30px;
+    border: none;
+
+}
+.trusted{
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    font-size: 25px;
+}
+.brand{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.bill h2{
+    color: #F55767;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.efect h2{
+    color: #2563FF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.badge h2{
+    color: #40975F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.badge h2{
+    color: #40975F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.github{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+}
+
+.github button{
+    border: none;
+}
+
+.Designed h1{
+    color: #231955;
+    font-size: 30px;
+}
+.Designed p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.Designed button{
+    background: blue;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.App{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 300px;   
+    line-height: 25px;
+}
+.img-1{
+    width: 600px;
+    float: right;
+}
+
+.see-all{
+    width: 150px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: #fff;
+    background: blue;
+}
+.awesome{
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 28px;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.awesome h1{
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.btn-2{
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center; 
+    width: 320px;
+    height: 60px;
+}
+
+.Monthly-1{
+    padding: 10px 31px;
+    background: transparent;
+    height: 60px;
+    font-weight: bolder;
+    border: 0px;
+    font-size: 25px;
+}
+
+.Monthly-1:hover{
+    color: #fff;
+    background: blue;
+    border-radius: 50px;
+}
+
+.Annually-2{
+    padding: 10px 31px;
+    height: 60px;
+    background: transparent;
+    font-weight: bolder;
+    border: 0px;
+    font-size: 25px;
+}
+
+.Annually-2:hover{
+    color: #fff;
+    background: blue;
+    border-radius: 50px;
+}
+
+.year{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primum{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-decoration: none;
+    height: 700px;
+}
+
+.Busines{
+    min-width: 400px;
+    box-shadow: 10px 20px 20px 20px lightgray;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.Drop button{
+    border: none;
+
+}
+
+.Busines:hover{
+    transform:scale(1.1);
+}
+
+.Busines-2{
+    min-width: 400px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.Drop-2{
+        border: none;
+
+}
+
+.pro{
+    width: 400px;
+    box-shadow: 10px 20px 20px 20px lightgray;
+}
+.Busines-2{
+    transition: 0.8s;
+}
+.Busines-2:hover{
+    transform:scale(1.1);
+}
+.teams h1{
+    font-size: 60px;
+    line-height: 30px;
+    color: #231955;
+}
+
+.teams span{
+    font-size: 20px;
+    color: gray;
+}
+
+.teams h3{
+    font-size: 30px;
+    color: #231955;
+}
+
+.teams p{
+    font-size: 24px;
+    color: gray;
+}
+
+.teams{
+    line-height: 30px;
+    padding-bottom: 50px;
+    background: #f5feff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.Drop{
+    line-height: 60px;
+    text-align: center;
+}
+
+.Drop button{
+    padding: 15px 60px;
+    background: blue;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Drop a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+}
+
+.Pro{
+    line-height: 30px;
+    padding-bottom: 50px;
+    background: #f5feff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.Pro h1{
+    font-size: 60px;
+    line-height: 30px;
+    color: #231955;
+}
+.Pro span{
+    font-size: 20px;
+    color: gray;
+}
+
+.Pro h3{
+    font-size: 30px;
+    color: #231955;
+}
+
+.Pro p{
+    font-size: 24px;
+    color: gray;
+}
+
+.client{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.client h1,
+.client h2{
+    color: #231955;
+}
+
+.layer-1{
+    background: url(images/Ellipse\ 5\ copy.png);
+    width: 50%;
+}
+
+.ceo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.ceo hr{
+    height: 50px;
+}
+
+.client a i{
+    color: skyblue;
+    font-size: 40px;
+}
+.Meet p{
+    line-height: 28px;
+}
+
+.mobile{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 28px;
+}
+
+.mobile h1{
+    color: #231955;
+    font-size: 30px;
+}
+
+.mobile p{
+    font-size: 15px;
+}
+
+.emergency{
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+}
+
+.frameworks{
+    background: #F2F2F2;
+    padding: 60px;
+}
+
+.installation{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+}
+
+.system{
+    display: flex;
+    justify-content: space-between;
+    background: #F2F2F2;
+    width: 840px;
+    padding: 20px;
+}
+
+.image1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-self: flex-end; 
+}
+
+.title {
+    line-height: 25px;
+}
+
+.title h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #231955;
+    font-weight: bold;
+}
+
+.title p{
+    padding-bottom: 30px;
+}
+
+.title img{
+    padding: 15px;
+}
+
+.main_div{
+    position: relative;
+}
+
+.image2{
+    padding-top: 50px;
+}
+
+/* .image2{
+width: 40%;
+position: absolute;
+top: 0;
+right: 0;
+} */
+
+.footer{
+    background: rgb(9, 17, 55);
+    height: 400px;
+    /* margin-top: 150px; */
+    /* position: relative; */
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background: rgb(9, 17, 55);
+    height: 200px;
+    align-items: center;
+}
+
+.content1 {
+    font-size: 50px;
+    color: white;
+}
+
+.content1 h3 {
+    color: white;
+
+}
+
+.content1 h3 span {
+    color: rgb(232, 213, 4);
+}
+.menu1{
+    text-decoration: none;
+  
+}
+.menu1 ul {
+    display: flex;
+    justify-content: center;   
+    list-style: none;
+   
+
+}
+.menu1 li{
+    margin: 0 10px;
+}
+.menu1 a{
+    text-decoration: none;
+    color: white;
+}
+.menu1 li:hover  a{
+    color: brown;
+    transition: color .4s ease;
+}
+.menu1 li :hover a{
+    color: red;
+}
+.menu2{
+    text-decoration: none;
+    padding-top: 20px;
+  
+}
+.menu2 ul {
+    display: flex;
+    justify-content: center;   
+    list-style: none;
+   
+
+}
+.menu2 li{
+    margin: 0 10px;
+}
+.menu2 a{
+    text-decoration: none;
+    color: white;
+}
+.menu2 li:hover  a{
+    color: brown;
+    transition: color .4s ease;
+}
+.menu2 li :hover a{
+    color: red;
+}
+.footer-bottom{
+   color: rgb(210, 210, 210);
+    text-align: center;
+    word-spacing: 2px;
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 1225px) {
+    .img-1{
+        width: 500px;
+        float: right;
+    }
+  }
+
+  @media only screen and (max-width: 1173px) {
+    .layer-1{
+        width: 30%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1099px) {
+    .img-1{
+        width: 400px;
+        float: right;
+    }
+  }
+
+  @media only screen and (max-width: 1003px) {
+    .img-1{
+        width: 270px;
+        float: right;
+    }
+  }
+
+  @media only screen and (max-width: 901px) {
+    .btn-1 button{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .btn-1 a{
+        font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 872px) {
+   .planning{
+    display: flex;
+    flex-direction: column;
+    height: 1595px;
+}
+.img-1{
+    width: 500px;
+    float: right;
+}
+.hero{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+.logo{
+    color: #E8AA42;
+    font-size: 20px;
+    cursor: default;
+}
+
+nav ul li{
+    padding: 5px;
+}
+
+.btn{
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    transition: transfrom.4s;
+    padding-top: 7px;
+}
+
+.primum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-decoration: none;
+    height: 1500px;
+}
+}
+
+@media only screen and (max-width: 791px) {
+.planning{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 1000px;
+    line-height: 28px;
+}
+.modern h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.modern p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.btn-1 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 8px;
+    background: blue;
+    color: #fff;
+}
+
+.btn-1 a{
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 15pxx;
+}
+
+.page-1 img{
+    width: 200px;
+}
+
+.smart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.smart h1{
+    font-size: 20px;
+}
+
+.smart p{
+    font-size: 10px;
+}
+
+.smart hr{
+    height: 50px;
+}
+
+.network{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    line-height: 22px;
+    font-size: 10px;
+}
+
+.efect h2{
+    color: #2563FF;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.badge h2{
+    color: #40975F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.github{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    padding-bottom: 20px;
+}
+
+.github img{
+    width: 400px;
+}
+
+.App{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 300px;   
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.UX-Planning{
+    padding-bottom: 15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.client h1,
+.client h2{
+    color: #231955;
+}
+
+.layer-1{
+    width: 100%;
+}
+
+
+.ceo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.ceo hr{
+    height: 50px;
+}
+
+.client a i{
+    color: skyblue;
+    font-size: 40px;
+}
+.Meet p{
+    line-height: 28px;
+}
+
+.layer-1 img{
+    width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    gap: 20px;
+}
+
+.features h1{
+    color: #231955;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media only screen and (max-width: 699px)  {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .brand{
+        padding-top: 80px;
+        gap: 60px;
+    }
+}   
+
+@media only screen and (max-width: 573px) {
+    .page-1{
+        background: url(images/Layer\ 5.png)no-repeat bottom;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+
+        .btn-1 a{
+            font-size: 15px;
+            float: left;
+        }
+
+    .page-1 img{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 791px) {
+    .planning{
+        display: flex;
+        flex-direction: column;
+        height: 1595px;
+    }
+}
+
+@media only screen and (max-width: 791px) {
+    .planning{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1999px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Cloud-Storage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: none;
+        padding: 30px;
+        gap: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 511px) {
+    .App{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        height: 800px;   
+        line-height: 25px;
+    }
+    
+    .UX-Planning{
+        flex-direction: column;
+        height: 800px;   
+    }
+    .layer-1{
+        width: 100%;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        height: 1480px;
+        align-items: center;
+        line-height: 28px;
+    }
+
+    .network{
+        display: flex;
+        flex-direction: column;        
+        height: 800px;
+    }
+    
+
+    .see-all{
+        width: 150px;
+        padding: 20px 50px;
+        border-radius: 50px;
+        color: #fff;
+        background: blue;
+    }
+
+    .mobile h1{
+        color: #231955;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .mobile p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .image1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: flex-end; 
+        text-align: center;
+    }
+
+    .title img{
+        margin-top: 20px;
+    }
+
+    .title p{
+        margin-top: 10px;
+    }
+
+    .image2{
+        margin-top: 90px;
+    }
+
+    .btn_butt{
+       margin-bottom: 20px;
+    }
+   
+    .img-1{
+        width: 300px;
+    }
+    }
+
+    @media only screen and (max-width: 511px) {
+        .Busines{
+            min-width: 200px;
+            margin-left: 20px;
+        }
+
+        .Busines-2{
+            min-width: 200px;
+        }
+
+        .smart{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+        }
+    
+        .smart hr{
+            height: 0;
+        }
+
+    }
+
+    @media only screen and (max-width: 511px) {
+        .nav ul li{
+            margin: 10px;
+        }
+
+        .best-app{
+          
+            gap: 5px;
+            width: 250px;
+            height: 40px;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        
+        .icon-1{
+            color: #fff;
+            background: orange;
+            border-radius: 50px;
+            padding: 10px;
+            width: 40px;
+        }
+        
+        .modern h1{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        
+        .modern p{
+            font-size: 25px;
+            line-height: 40px;
+            margin-bottom: 50px;
+        }
+
+        .ceo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 50px;
+        }
+        
+        .ceo hr{
+            height: 6px;
+            gap: 10px;
+        }
+
+        .emergency{
+            text-align: center;
+        }
+        
+        .installation{
+            text-align: center;
+        }
+        
+    }
+
+    @media only screen and (max-width: 454px) {
+        .btn-1 button{
+            width: 50px;
+            height: 50px;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        .btn-1 a{
+            font-size: 15px;
+        }
+      }
+
+      @media only screen and (max-width: 454px) {
+        .btn-1 button{
+            width: 100px;
+            height: 50px;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        .github img{
+            width: 200px;
+        }
+        .github{
+            text-align: center;
+        }
+
+        .menu2 li{
+            margin: 0 5px;
+        }
+        
+      }
+    
+
+      @media only screen and (max-width: 454px) {
+        .nav ul li{
+            margin: 5px;
+        }
+      }
+    
+
+    
+
+      @media only screen and (max-width: 454px) {
+        .nav ul li{
+            margin: 5px;
+        }
+      }
